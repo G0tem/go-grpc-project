@@ -1,1 +1,1 @@
-# G0tem
+# Old architecture logic emul
