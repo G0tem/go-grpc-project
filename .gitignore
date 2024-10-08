@@ -1,0 +1,14 @@
+# Игнорировать .env
+.env
+app.env
+
+# Игнорировать influx.env
+influx.env
+
+# Игнорировать base
+base/*
+!base/.gitkeep
+!base/
+
+# Игнорировать configs/alertmanager
+configs/alertmanager.yml
