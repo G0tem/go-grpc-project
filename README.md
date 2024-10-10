@@ -14,13 +14,13 @@
 
 
 ```
-docker-compose up --build
+docker compose up --build
 ```
 
 **`OR`**
 
 ```
-docker-compose -f docker-compose-lb.yml up --build
+docker compose -f docker-compose-lb.yml up --build
 ```
 
 *This will run the 4 instances of our Go server in 4 different containers, each running on a different port and an NGINX load balancer to distribute the load between the 4 instances*
