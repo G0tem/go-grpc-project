@@ -39,9 +39,14 @@ NGINX Load Balancer opens two ports:
 To send HTTP requests to the NGINX load balancer (which will distribute the requests between the 4 HTTP Gateway servers),
 just open web browser or Postman and send requests to `http://localhost:3050`
 
+Swagger UI to view the API documentation
+http://0.0.0.0:3050/swagger/
+
 To send gRPC requests to the NGINX load balancer (which will distribute the requests between the 4 gRPC servers),
 you can use the Evans CLI tool to send gRPC requests to the NGINX load balancer. Run the following command:
 
 ```
 evans --port 9090 --host localhost -r repl;
 ```
+
+
