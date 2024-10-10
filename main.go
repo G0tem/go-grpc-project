@@ -82,6 +82,9 @@ func main() {
 
 	// Start the gRPC server on main Go routine.
 	startGRPCServer(config, store)
+
+	// логика run бота
+	// go bot.RunBot()
 }
 
 // ** HTTP Server (Serves the HTTP requests)
