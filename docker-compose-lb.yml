@@ -4,7 +4,7 @@ services:
   grafana:
     image: grafana/grafana
     user: root
-    restart: always
+    # restart: always
     ports:
       - 3000:3000
     volumes:
@@ -102,7 +102,7 @@ services:
       - PGADMIN_DEFAULT_SERVER=postgres_db
     volumes:
       - ./base/pgadmin_data:/var/lib/pgadmin
-    restart: always
+    # restart: always
     deploy:
       resources:
         limits:
@@ -124,7 +124,7 @@ services:
     volumes:
       - ./base/postgres_data:/var/lib/postgresql/data
       # - data-volume:/var/lib/postgresql/data
-    restart: always
+    # restart: always
     healthcheck:
       test: [ "CMD-SHELL", "pg_isready -U root -d simple_bank" ]
       interval: 10s
@@ -213,7 +213,7 @@ services:
     build:
       context: ./nginx
       dockerfile: Dockerfile
-    restart: always
+    # restart: always
     ports:
       - "3050:80" # For load balancing of the HTTP Gateway server
       - "9090:9090" # For load balancing of the gRPC server
@@ -268,7 +268,7 @@ services:
     container_name: kafka-ui
     ports:
       - 8091:8080
-    restart: always
+    # restart: always
     environment:
       - KAFKA_CLUSTERS_0_NAME=local
       - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=kafka:29092,kafka2:29093
