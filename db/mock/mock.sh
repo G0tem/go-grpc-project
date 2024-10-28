@@ -22,6 +22,6 @@ mockgen -help
 # 	mockgen database/sql/driver Conn,Driver
 
 
-mockgen -destination db/mock/store.go -package mock_db github.com/saalikmubeen/go-grpc-implementation/db/sqlc Store
+mockgen -destination db/mock/store.go -package mock_db github.com/G0tem/go-grpc-project/db/sqlc Store
 
 # mockgen -source ./db/sqlc/store.go  -destination db/mock/store.go -package mock_db Store

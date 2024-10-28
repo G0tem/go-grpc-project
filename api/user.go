@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"time"
 
+	generated_db "github.com/G0tem/go-grpc-project/db/sqlc"
+	"github.com/G0tem/go-grpc-project/utils"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 	"github.com/lib/pq"
-	generated_db "github.com/saalikmubeen/go-grpc-implementation/db/sqlc"
-	"github.com/saalikmubeen/go-grpc-implementation/utils"
 )
 
 type createUserRequest struct {

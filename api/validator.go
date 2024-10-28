@@ -1,8 +1,8 @@
 package api
 
 import (
+	"github.com/G0tem/go-grpc-project/utils"
 	"github.com/go-playground/validator/v10"
-	"github.com/saalikmubeen/go-grpc-implementation/utils"
 )
 
 var validCurrency validator.Func = func(fieldLevel validator.FieldLevel) bool {

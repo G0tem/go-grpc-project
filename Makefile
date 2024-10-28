@@ -37,7 +37,7 @@ server:
 	go run main.go
 
 mock:
-	mockgen -destination db/mock/store.go -package mock_db github.com/saalikmubeen/go-grpc-implementation/db/sqlc Store
+	mockgen -destination db/mock/store.go -package mock_db github.com/G0tem/go-grpc-project/db/sqlc Store
 
 
 # Generates a random 32 character string to be used as TOKEN_SYMMETRIC_KEY

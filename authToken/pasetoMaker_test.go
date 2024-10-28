@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/saalikmubeen/go-grpc-implementation/utils"
+	"github.com/G0tem/go-grpc-project/utils"
 	"github.com/stretchr/testify/require"
 )
 

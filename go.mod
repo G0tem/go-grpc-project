@@ -16,7 +16,7 @@ require (
 	github.com/o1egl/paseto v1.0.0
 	github.com/rakyll/statik v0.1.7
 	github.com/rs/zerolog v1.32.0
-	github.com/saalikmubeen/go-grpc-implementation v0.0.0-20240612054926-8f67b3a59c0e
+	github.com/G0tem/go-grpc-project v0.0.0-20240612054926-8f67b3a59c0e
 	github.com/spf13/viper v1.18.2
 	github.com/stretchr/testify v1.9.0
 	go.uber.org/mock v0.4.0

@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/G0tem/go-grpc-project/authToken"
 	"github.com/gin-gonic/gin"
-	"github.com/saalikmubeen/go-grpc-implementation/authToken"
 )
 
 const (

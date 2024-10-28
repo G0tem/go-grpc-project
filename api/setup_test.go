@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
+	generated_db "github.com/G0tem/go-grpc-project/db/sqlc"
+	"github.com/G0tem/go-grpc-project/utils"
 	"github.com/gin-gonic/gin"
-	generated_db "github.com/saalikmubeen/go-grpc-implementation/db/sqlc"
-	"github.com/saalikmubeen/go-grpc-implementation/utils"
 	"github.com/stretchr/testify/require"
 )
 

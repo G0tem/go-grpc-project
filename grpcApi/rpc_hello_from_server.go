@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/saalikmubeen/go-grpc-implementation/pb"
+	"github.com/G0tem/go-grpc-project/pb"
 )
 
 func (server *server) HelloFromServer(ctx context.Context, req *pb.HelloFromServerRequest) (*pb.HelloFromServerResponse, error) {
