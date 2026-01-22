@@ -14,12 +14,6 @@
 
 
 ```
-docker compose up --build
-```
-
-**`OR`**
-
-```
 docker compose -f docker-compose-lb.yml up --build
 ```
 
